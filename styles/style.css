@@ -130,3 +130,21 @@
 
 
 /* Остальное */
+
+@media (max-width: 640px) {
+    .h-7em {
+        height: 7em;
+    }
+    .pt-7em {
+        padding-top: 7em;
+    }
+}
+
+@media (max-width: 420px) {
+    .h-9em {
+        height: 9em;
+    }
+    .pt-9em {
+        padding-top: 9em;
+    }
+}
