@@ -2,10 +2,63 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
     color: #303846;
 }
+
+
+/* Позиционирование */
+
+.pos-f {
+    position: fixed;
+}
+
+
+/* Box-model 
+ * display, width, height, box-sizing 
+ */
+
+.d-f {
+    display: flex;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.w-5em {
+    width: 5em;
+}
+
+.w-100vw {
+    width: 100vw;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.p-1rem {
+    padding: 1rem;
+}
+
+
+/* Типографика */
+
+.fw-b {
+    font-weight: bold;
+}
+
+.td-n {
+    text-decoration: none;
+}
+
+
+/* Визуализация */
+
+
+/* Анимация */
+
+
+/* Остальное */
