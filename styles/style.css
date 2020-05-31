@@ -5,6 +5,7 @@
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
     color: #303846;
+    outline: none;
 }
 
 
@@ -21,6 +22,12 @@
 
 .d-f {
     display: flex;
+}
+
+.d-g {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50%);
+    row-gap: 1em;
 }
 
 .jc-sb {
@@ -51,8 +58,16 @@
     height: 5em;
 }
 
+.h-1-5em {
+    height: 1.5em;
+}
+
 .pt-5em {
     padding-top: 5em;
+}
+
+.pt-2em {
+    padding-top: 2em;
 }
 
 .m-1em {
@@ -61,6 +76,10 @@
 
 .p-1em {
     padding: 1em;
+}
+
+.pl-3perc {
+    padding-left: 3%;
 }
 
 .fxd-c {
@@ -77,6 +96,18 @@
 
 .bdrs {
     border-radius: 1em;
+}
+
+.bd-turquoise {
+    border: 2px groove turquoise;
+}
+
+.bds-solid {
+    border-style: solid;
+}
+
+.bd-1px {
+    border-width: 1px;
 }
 
 .mw-1440 {
@@ -99,12 +130,20 @@
     margin-bottom: .5em;
 }
 
+.mb-1em {
+    margin-bottom: 1em;
+}
+
 .w-60perc {
     width: 60%;
 }
 
-.ml-auto {
-    margin-left: auto;
+.ml-1em {
+    margin-left: 1em;
+}
+
+.min-w-300px {
+    min-width: 300px;
 }
 
 
@@ -122,12 +161,20 @@
     font-size: 3em;
 }
 
+.fz-2em {
+    font-size: 2em;
+}
+
 .fc-white {
     color: white;
 }
 
 .ta-c {
     text-align: center;
+}
+
+.fc-turquoise {
+    color: turquoise;
 }
 
 .fz-larger {
@@ -193,10 +240,13 @@
 }
 
 @media (max-width: 420px) {
-    .ss240-h-9em {
-        height: 9em;
-    }
     .ss420-pt-9em {
         padding-top: 9em;
+    }
+    .ss420-m-01em {
+        margin: .1em;
+    }
+    .ss420-fxd-c {
+        flex-direction: column;
     }
 }

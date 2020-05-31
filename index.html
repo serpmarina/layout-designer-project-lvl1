@@ -11,16 +11,16 @@
 </head>
 
 <body class="mw-1440 m-auto">
-    <header class="d-f jc-sb ai-c pos-f w-100vw mw-1440 ss640-h-7em ss240-h-9em bgc-white">
-        <div class="d-f ai-c m-1em">
+    <header class="d-f jc-sb ai-c pos-f w-100vw mw-1440 ss640-h-7em bgc-white">
+        <div class="d-f ai-c m-1em ss420-m-01em">
             <img src="/images/logo.svg" alt="Логотип" class="w-3em">
             <p class="m-1em fw-b">Лунное море</p>
         </div>
 
-        <nav class="m-1em fxw-w d-f">
-            <a href="#advantages" class="m-1em fw-b td-n">Преимущества</a>
-            <a href="#about" class="m-1em fw-b td-n">О ЖК</a>
-            <a href="#rest-places" class="m-1em fw-b td-n">Места для отдыха</a>
+        <nav class="m-1em fxw-w d-f ss420-fxd-c">
+            <a href="#advantages" class="m-1em fw-b td-n ss420-m-01em">Преимущества</a>
+            <a href="#about" class="m-1em fw-b td-n ss420-m-01em">О ЖК</a>
+            <a href="#rest-places" class="m-1em fw-b td-n ss420-m-01em">Места для отдыха</a>
         </nav>
     </header>
     <main class="pt-5em ss640-pt-7em ss420-pt-9em">
@@ -28,7 +28,7 @@
             <img src="/images/logo.svg" alt="Логотип" class="w-13em m-1em">
             <h1 class="fz-3em fc-white ta-c">ЖК «Лунное море»</h1>
             <p class="fc-white fw-b m-1em ta-c">Место, откуда не хочется улетать</p>
-            <button class="m-1em fc-white bgc-t p-1em bd bdrs">Забронировать</button>
+            <a class="m-1em fc-white bgc-t p-1em bd bdrs td-n" href="#order">Забронировать</a>
         </section>
         <section>
             <div class="d-f mw-1000 mt-3em jc-sb m-auto fxw-w ss640-fxdr-c p-1em">
@@ -63,8 +63,42 @@
                     <p class="ta-j">Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
                 </div>
             </div>
-
-
+        </section>
+        <section class="bgc-light-gray" id="order">
+            <div class="w-30perc m-auto mt-3em min-w-300px">
+                <h2 class="fz-2em ta-c pt-2em">Оставьте заявку сегодня!</h2>
+                <form action="" class="mt-3em fw-b">
+                    <fieldset class="mb-1em bd-turquoise">
+                        <legend class="fz-larger ml-1em fc-turquoise">Параметры квартиры</legend>
+                        <div class="d-g jc-sb fxw-w p-1em">
+                            <label for="rooms">Количество комнат:</label>
+                            <select name="rooms" id="rooms" class="bdrs h-1-5em pl-3perc">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                            <label for="decoration">Отделка</label>
+                            <select name="decoration" id="decoration" class="bdrs h-1-5em pl-3perc">
+                        <option value="no-deco">Без отделки</option>
+                        <option value="cosmetic-deco">Косметический ремонт</option>
+                        <option value="design-deco">Дизайнерский ремонт</option>
+                    </select>
+                        </div>
+                    </fieldset>
+                    <fieldset class="mb-05em bd-turquoise mb-1em">
+                        <legend class="fz-larger ml-1em fc-turquoise">Контактная информация</legend>
+                        <div class="d-g jc-sb fxw-w p-1em">
+                            <label for="name">Имя:</label>
+                            <input type="text" id="name" class="bdrs h-1-5em pl-3perc bds-solid bd-1px">
+                            <label for="phone">Телефон:</label>
+                            <input type="text" id="phone" class="bdrs h-1-5em pl-3perc bds-solid bd-1px">
+                            <label for="email">E-mail:</label>
+                            <input type="text" id="email" class="bdrs h-1-5em pl-3perc bds-solid bd-1px">
+                        </div>
+                    </fieldset>
+                    <button class="bd-turquoise bdrs p-1em bds-solid fc-turquoise bd-1px bgc-light-gray w-30perc">Отправить</button>
+                </form>
+            </div>
         </section>
     </main>
     <footer class="footer"></footer>
