@@ -16,12 +16,18 @@
 }
 
 
-/* Box-model 
- * display, width, height, box-sizing 
- */
+/* Box-model: display, width, height, box-sizing */
 
 .d-f {
     display: flex;
+}
+
+.fxd-c {
+    flex-direction: column;
+}
+
+.fxw-w {
+    flex-wrap: wrap;
 }
 
 .d-g {
@@ -38,24 +44,12 @@
     justify-content: space-around;
 }
 
-.w-2rem {
-    width: 2rem;
-}
-
-.w-13rem {
-    width: 13rem;
+.ai-c {
+    align-items: center;
 }
 
 .w-100vw {
     width: 100%;
-}
-
-.mw-1440 {
-    max-width: 1440px;
-}
-
-.mw-1000 {
-    max-width: 1000px;
 }
 
 .w-30perc {
@@ -66,6 +60,22 @@
     width: 60%;
 }
 
+.w-13rem {
+    width: 13rem;
+}
+
+.w-2rem {
+    width: 2rem;
+}
+
+.mw-1440 {
+    max-width: 1440px;
+}
+
+.mw-1000 {
+    max-width: 1000px;
+}
+
 .min-w-300px {
     min-width: 300px;
 }
@@ -74,44 +84,64 @@
     min-width: 150px;
 }
 
-.m-auto {
-    margin: 0 auto;
-}
-
-.ai-c {
-    align-items: center;
-}
-
 .h-5rem {
     height: 5rem;
-}
-
-.h-1-5rem {
-    height: 1.5rem;
 }
 
 .h-3rem {
     height: 3rem;
 }
 
-.pt-3rem {
-    padding-top: 3rem;
+.h-1-5rem {
+    height: 1.5rem;
 }
 
-.pt-2rem {
-    padding-top: 2rem;
+.m-auto {
+    margin: 0 auto;
+}
+
+.m-1rem {
+    margin: 1rem;
+}
+
+.mt-2rem {
+    margin-top: 2rem;
+}
+
+.mb-2rem {
+    margin-bottom: 2rem;
+}
+
+.mb-1rem {
+    margin-bottom: 1rem;
+}
+
+.mb-05rem {
+    margin-bottom: .5rem;
+}
+
+.ml-1rem {
+    margin-left: 1rem;
+}
+
+.mr-1rem {
+    margin-right: 1rem;
+}
+
+.pt-3rem {
+    padding-top: 3rem;
 }
 
 .pb-3rem {
     padding-bottom: 3rem;
 }
 
-.pb-2rem {
-    padding-bottom: 2rem;
+.pt-2rem {
+    padding-top: 2rem;
 }
 
-.m-1rem {
-    margin: 1rem;
+.pb-2rem {
+    padding-bottom: 2rem;
 }
 
 .p-1rem {
@@ -126,20 +156,12 @@
     padding-left: 3%;
 }
 
-.fxd-c {
-    flex-direction: column;
-}
-
-.fxw-w {
-    flex-wrap: wrap;
-}
-
 .bd {
     border: 1px solid #fff;
 }
 
 .bdrs {
-    border-radius: 1rem;
+    border-radius: .5rem;
 }
 
 .bd-turquoise {
@@ -152,30 +174,6 @@
 
 .bd-1px {
     border-width: 1px;
-}
-
-.mt-2rem {
-    margin-top: 2rem;
-}
-
-.mb-05rem {
-    margin-bottom: .5rem;
-}
-
-.mb-1rem {
-    margin-bottom: 1rem;
-}
-
-.mb-2rem {
-    margin-bottom: 2rem;
-}
-
-.ml-1rem {
-    margin-left: 1rem;
-}
-
-.mr-1rem {
-    margin-right: 1rem;
 }
 
 
@@ -197,6 +195,10 @@
     font-size: 2rem;
 }
 
+.fz-larger {
+    font-size: larger;
+}
+
 .fc-white {
     color: white;
 }
@@ -207,10 +209,6 @@
 
 .fc-turquoise {
     color: turquoise;
-}
-
-.fz-larger {
-    font-size: larger;
 }
 
 .ta-j {
@@ -249,56 +247,8 @@
 }
 
 
-/* Другое */
+/* Jumping links + scroll-margin top to prevent header overlapping  */
 
 .scroll-m-top {
     scroll-margin-top: 3rem;
-}
-
-
-/* Медиа-запросы */
-
-@media (max-width: 640px) {
-    .ss640-fxdr-c {
-        flex-direction: column;
-    }
-    .ss640-fxw-wrap {
-        flex-wrap: wrap;
-    }
-    .ss640-w-80 {
-        width: 80%;
-    }
-    .ss640-order1 {
-        order: 1;
-    }
-    .ss640-m-auto {
-        margin: auto;
-    }
-    .ss640-mb-1rem {
-        margin-bottom: 1rem;
-    }
-    .ss640-d-none {
-        display: none;
-    }
-}
-
-@media (max-width: 440px) {
-    .ss420-m-02rem {
-        margin: .2rem;
-    }
-    .ss420-fz-small {
-        font-size: small;
-    }
-    .ss420-fxd-column {
-        flex-direction: column;
-    }
-    .ss420-m-auto {
-        margin: auto;
-    }
-    .ss420-ml-10perc {
-        margin-left: 10%;
-    }
-    .ss420-mb-2rem {
-        margin-bottom: 2rem;
-    }
 }

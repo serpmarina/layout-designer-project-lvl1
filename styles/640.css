@@ -1,0 +1,27 @@
+.ss640-d-none {
+    display: none;
+}
+
+.ss640-fxdr-c {
+    flex-direction: column;
+}
+
+.ss640-fxw-wrap {
+    flex-wrap: wrap;
+}
+
+.ss640-w-80 {
+    width: 80%;
+}
+
+.ss640-m-auto {
+    margin: auto;
+}
+
+.ss640-mb-1rem {
+    margin-bottom: 1rem;
+}
+
+.ss640-order1 {
+    order: 1;
+}

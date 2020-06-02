@@ -1,3 +1,4 @@
 # layout-designer-project-lvl1
-The landing page for "moonlake" apartment complex
-Hexlet first project
+The landing page for Moon Seas apartment complex
+
+Live preview: http://hateful-hot.surge.sh/
