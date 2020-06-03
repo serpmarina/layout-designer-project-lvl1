@@ -18,19 +18,19 @@
 
 /* Box-model: display, width, height, box-sizing */
 
-.d-f {
+.d-flex {
     display: flex;
 }
 
-.fxd-c {
+.fxd-column {
     flex-direction: column;
 }
 
-.fxw-w {
+.fxw-wrap {
     flex-wrap: wrap;
 }
 
-.d-g {
+.d-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, 50%);
     row-gap: 1rem;
@@ -44,7 +44,7 @@
     justify-content: space-around;
 }
 
-.ai-c {
+.ai-center {
     align-items: center;
 }
 
@@ -68,12 +68,12 @@
     width: 2rem;
 }
 
-.mw-1440 {
-    max-width: 1440px;
+.max-w-1000 {
+    max-width: 1000px;
 }
 
-.mw-1000 {
-    max-width: 1000px;
+.max-w-500px {
+    max-width: 500px;
 }
 
 .min-w-300px {
@@ -156,11 +156,11 @@
     padding-left: 3%;
 }
 
-.bd {
+.bd-white {
     border: 1px solid #fff;
 }
 
-.bdrs {
+.bdrs-05rem {
     border-radius: .5rem;
 }
 
@@ -179,11 +179,11 @@
 
 /* Типографика */
 
-.fw-b {
+.fw-bold {
     font-weight: bold;
 }
 
-.td-n {
+.td-none {
     text-decoration: none;
 }
 
@@ -203,7 +203,7 @@
     color: white;
 }
 
-.ta-c {
+.ta-center {
     text-align: center;
 }
 
@@ -211,7 +211,7 @@
     color: turquoise;
 }
 
-.ta-j {
+.ta-justify {
     text-align: justify;
 }
 
@@ -222,7 +222,7 @@
     background-image: url(/images/banner.png);
 }
 
-.bgsz-cv {
+.bgsz-cover {
     background-size: cover;
 }
 
@@ -230,7 +230,7 @@
     background-position: center 70%;
 }
 
-.bgc-t {
+.bgc-transparent {
     background-color: transparent;
 }
 
@@ -251,4 +251,11 @@
 
 .scroll-m-top {
     scroll-margin-top: 3rem;
+}
+
+
+/* link cursor */
+
+.cursor-pointer {
+    cursor: pointer;
 }
