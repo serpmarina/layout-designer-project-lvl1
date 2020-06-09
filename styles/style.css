@@ -9,9 +9,9 @@
 }
 
 
-/* Позиционирование */
+/* Position */
 
-.pos-f {
+.pos-fixed {
     position: fixed;
 }
 
@@ -38,10 +38,6 @@
 
 .jc-sb {
     justify-content: space-between;
-}
-
-.jc-sa {
-    justify-content: space-around;
 }
 
 .ai-center {
@@ -82,10 +78,6 @@
 
 .min-w-150px {
     min-width: 150px;
-}
-
-.h-5rem {
-    height: 5rem;
 }
 
 .h-3rem {
@@ -132,10 +124,6 @@
     padding-top: 3rem;
 }
 
-.pb-3rem {
-    padding-bottom: 3rem;
-}
-
 .pt-2rem {
     padding-top: 2rem;
 }
@@ -177,7 +165,7 @@
 }
 
 
-/* Типографика */
+/* Fonts */
 
 .fw-bold {
     font-weight: bold;
@@ -211,12 +199,8 @@
     color: turquoise;
 }
 
-.ta-justify {
-    text-align: justify;
-}
 
-
-/* Визуализация */
+/* Visualization */
 
 .bgi-space {
     background-image: url(/images/banner.png);
