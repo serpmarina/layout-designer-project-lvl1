@@ -56,8 +56,8 @@
     width: 60%;
 }
 
-.w-13rem {
-    width: 13rem;
+.w-10rem {
+    width: 10rem;
 }
 
 .w-2rem {
@@ -96,20 +96,12 @@
     margin: 1rem;
 }
 
-.mt-2rem {
-    margin-top: 2rem;
-}
-
 .mb-2rem {
     margin-bottom: 2rem;
 }
 
 .mb-1rem {
     margin-bottom: 1rem;
-}
-
-.mb-05rem {
-    margin-bottom: .5rem;
 }
 
 .ml-1rem {
@@ -124,20 +116,12 @@
     padding-top: 3rem;
 }
 
-.pt-2rem {
-    padding-top: 2rem;
-}
-
-.pb-2rem {
-    padding-bottom: 2rem;
+.p-3-1rem {
+    padding: 3rem 1rem;
 }
 
 .p-1rem {
     padding: 1rem;
-}
-
-.plr-1rem {
-    padding: 0 1rem;
 }
 
 .pl-3perc {
@@ -211,7 +195,7 @@
 }
 
 .bgp {
-    background-position: center 70%;
+    background-position: center 80%;
 }
 
 .bgc-transparent {
