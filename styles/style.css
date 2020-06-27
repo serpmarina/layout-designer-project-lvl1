@@ -14,6 +14,42 @@
     font-family: 'Ubuntu', sans-serif;
     color: var(--main-color);
     outline: none;
+    text-decoration: none;
+}
+
+
+/* Components */
+
+.btn {
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: 1px solid;
+    background-color: transparent;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--header-height);
+    background-color: var(--inverse-color);
+    width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: var(--main-color);
+    padding: 3rem 1rem;
+    color: var(--inverse-color);
 }
 
 
@@ -28,6 +64,10 @@
 
 .d-flex {
     display: flex;
+}
+
+.d-block {
+    display: block;
 }
 
 .fxd-column {
@@ -52,7 +92,7 @@
     align-items: center;
 }
 
-.w-100vw {
+.w-100perc {
     width: 100%;
 }
 
@@ -76,26 +116,16 @@
     max-width: 1000px;
 }
 
-.max-w-500px {
-    max-width: 500px;
-}
-
 .min-w-300px {
     min-width: 300px;
 }
 
-.min-w-150px {
-    min-width: 150px;
+.max-w-500px {
+    max-width: 500px;
 }
 
-.header {
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: var(--header-height);
-    background-color: var(--inverse-color);
-    width: 100%;
+.min-w-150px {
+    min-width: 150px;
 }
 
 .h-1-5rem {
@@ -150,7 +180,7 @@
     border-radius: .5rem;
 }
 
-.bd-turquoise {
+.bd-accent {
     border: 2px groove var(--accent-color);
 }
 
@@ -189,7 +219,7 @@
     text-align: center;
 }
 
-.fc-turquoise {
+.fc-accent {
     color: var(--accent-color);
 }
 
@@ -218,14 +248,6 @@
 
 .bgc-dark-gray {
     background-color: var(--main-color);
-}
-
-.btn {
-    padding: 1rem;
-    border-radius: .5rem;
-    cursor: pointer;
-    border: 1px solid;
-    background-color: transparent;
 }
 
 

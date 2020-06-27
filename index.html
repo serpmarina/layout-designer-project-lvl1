@@ -13,6 +13,7 @@
 </head>
 
 <body class="m-auto">
+
     <header class="header">
         <div class="d-flex ai-center ml-1rem ss420-m-02rem">
             <img src="/images/logo.svg" alt="Логотип" class="w-2rem">
@@ -20,22 +21,22 @@
         </div>
 
         <nav class="mr-1rem fxw-wrap d-flex">
-            <a href="#advantages" class="mr-1rem fw-bold td-none ss420-m-02rem">Преимущества</a>
-            <a href="#about" class="mr-1rem fw-bold td-none ss420-m-02rem">О ЖК</a>
-            <a href="#rest-places" class="fw-bold td-none ss420-m-02rem">Места для отдыха</a>
+            <a href="#advantages" class="mr-1rem fw-bold  ss420-m-02rem">Преимущества</a>
+            <a href="#about" class="mr-1rem fw-bold  ss420-m-02rem">О ЖК</a>
+            <a href="#rest-places" class="fw-bold  ss420-m-02rem">Места для отдыха</a>
         </nav>
     </header>
     <main>
-        <section class="bgi-space bgp bgsz-cover  scroll-m-top pt-header-height ">
-            <div class="max-w-1000 m-auto d-flex fxd-column ai-center p-3-1rem">
+        <section class="bgi-space bgp bgsz-cover scroll-m-top pt-header-height ">
+            <div class="container fxd-column ai-center p-3-1rem">
                 <img src="/images/logo.svg" alt="Логотип" class="w-10rem">
                 <h1 class="fz-3rem fc-white ta-center m-1rem">ЖК «Лунное море»</h1>
                 <p class="fc-white fw-bold ta-center mb-1rem">Место, откуда не хочется улетать</p>
-                <a class="fc-white btn td-none" href="#order">Забронировать</a></div>
+                <a class="fc-white btn " href="#order">Забронировать</a></div>
         </section>
         <section>
-            <div class="p-3-1rem ">
-                <div id="advantages" class="scroll-m-top d-flex max-w-1000 jc-sb m-auto fxw-wrap ss640-fxdr-c">
+            <div class="p-3-1rem">
+                <div id="advantages" class="scroll-m-top container jc-sb fxw-wrap ss640-fxdr-c">
                     <div class="w-30perc ss640-w-80 ss640- ss640-m-auto">
                         <h2 class="fz-larger">Уникальный вид</h2>
                         <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
@@ -51,7 +52,7 @@
                 </div>
             </div>
             <div class="bgc-light-gray p-3-1rem ">
-                <div class="d-flex jc-sb max-w-1000 ss640-fxdr-c m-auto ai-center">
+                <div class="jc-sb container ss640-fxdr-c ai-center">
                     <div class="w-60perc ss640-w-80 scroll-m-top" id="about">
                         <h2 class="fz-larger">О ЖК «Лунное море»</h2>
                         <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -62,7 +63,7 @@
             </div>
             <div>
                 <div class="p-3-1rem ">
-                    <div class="d-flex jc-sb max-w-1000 m-auto ss640-fxdr-c ai-center scroll-m-top" id="rest-places">
+                    <div class="jc-sb container ss640-fxdr-c ai-center scroll-m-top" id="rest-places">
                         <img src="/images/moon-2.jpg" alt="rest" class="w-30perc ss640-w-80 ss640-order1">
                         <div class="w-60perc ss640-w-80">
                             <h2 class="fz-larger">Места для отдыха</h2>
@@ -75,11 +76,11 @@
         </section>
         <section class="scroll-m-top" id="order">
             <div class="p-3-1rem bgc-light-gray">
-                <div class="m-auto max-w-1000">
+                <div class="container d-block">
                     <h2 class="fz-2rem ta-center mb-2rem">Оставьте заявку сегодня!</h2>
                     <form class="fw-bold min-w-300px max-w-500px m-auto">
-                        <fieldset class="bd-turquoise mb-1rem">
-                            <legend class="fz-larger ml-1rem fc-turquoise">Параметры квартиры</legend>
+                        <fieldset class="bd-accent mb-1rem">
+                            <legend class="fz-larger ml-1rem fc-accent">Параметры квартиры</legend>
                             <div class="d-grid jc-sb fxw-wrap p-1rem">
                                 <label for="rooms">Количество комнат:</label>
                                 <select name="rooms" id="rooms" class="bdrs-05rem h-1-5rem pl-3perc">
@@ -95,8 +96,8 @@
      </select>
                             </div>
                         </fieldset>
-                        <fieldset class="bd-turquoise mb-1rem">
-                            <legend class="fz-larger ml-1rem fc-turquoise">Контактная информация</legend>
+                        <fieldset class="bd-accent mb-1rem">
+                            <legend class="fz-larger ml-1rem fc-accent">Контактная информация</legend>
                             <div class="d-grid jc-sb fxw-wrap p-1rem">
                                 <label for="name">Имя:</label>
                                 <input type="text" id="name" class="bdrs-05rem h-1-5rem pl-3perc bds-solid bd-1px">
@@ -106,16 +107,16 @@
                                 <input type="text" id="email" class="bdrs-05rem h-1-5rem pl-3perc bds-solid bd-1px">
                             </div>
                         </fieldset>
-                        <button class="fc-turquoise w-30perc min-w-150px btn">Отправить</button>
+                        <button class="fc-accent w-30perc min-w-150px btn">Отправить</button>
                     </form>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="bgc-dark-gray p-3-1rem">
-        <div class="max-w-1000 w-100vw d-flex jc-sb m-auto ss640-fxw-wrap ss420-fxd-column">
+    <footer class="footer">
+        <div class="container w-100perc jc-sb ss640-fxw-wrap ss420-fxd-column">
             <div class="ss640-order1  ss420-m-auto">
-                <div class="d-flex ai-center ss420-m-02rem  ">
+                <div class="d-flex ai-center ss420-m-02rem">
                     <img src="/images/logo.svg" alt="Логотип" class="w-2rem">
                     <p class="ml-1rem fw-bold fc-white">Лунное море</p>
                 </div>
@@ -125,10 +126,10 @@
                 <h3 class="fc-white  fz-larger">Проектная документация</h3>
                 <ul>
                     <li class="fc-white ml-1rem">
-                        <a href="#" class="fc-white td-none">Скачать</a>
+                        <a href="#" class="fc-white ">Скачать</a>
                     </li>
                     <li class="fc-white ml-1rem">
-                        <a href="#" class="fc-white td-none">Посмотреть на сайте</a>
+                        <a href="#" class="fc-white ">Посмотреть на сайте</a>
                     </li>
                 </ul>
             </div>
@@ -136,10 +137,10 @@
                 <h3 class="fc-white  fz-larger">О застройщике</h3>
                 <ul>
                     <li class="fc-white ml-1rem">
-                        <a href="#" class="fc-white td-none">Отзывы</a>
+                        <a href="#" class="fc-white ">Отзывы</a>
                     </li>
                     <li class="fc-white ml-1rem">
-                        <a href="#" class="fc-white td-none">Сайт компании</a>
+                        <a href="#" class="fc-white ">Сайт компании</a>
                     </li>
                 </ul>
             </div>
