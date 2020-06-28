@@ -224,5 +224,5 @@ a:not(.btn):hover {
 /* Jumping links + scroll-margin top to prevent header overlapping  */
 
 .scroll-m-top {
-    scroll-margin-top: 3rem;
+    scroll-margin-top: var(--header-height);
 }
