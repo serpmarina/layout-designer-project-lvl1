@@ -60,21 +60,30 @@ p {
     font-weight: bold;
 }
 
-.h1 {
+h1 {
+    margin: 1rem;
     font-size: 3rem;
     color: var(--inverse-color);
     text-align: center;
 }
 
-.h2 {
+h2 {
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+h3 {
+    margin-bottom: .7rem;
+}
+
+legend {
+    font-size: larger;
+}
+
+.large-heading {
     margin-bottom: 2rem;
     font-size: 2rem;
     text-align: center;
-}
-
-.h3 {
-    margin-bottom: 1rem;
-    font-size: larger;
 }
 
 .container {
@@ -187,7 +196,8 @@ p {
 }
 
 .bd-accent {
-    border: 2px groove var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: .5rem;
 }
 
 .bd-1px {

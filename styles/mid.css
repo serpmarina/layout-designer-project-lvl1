@@ -1,23 +1,23 @@
-.ss640-d-none {
+.mid-d-none {
     display: none;
 }
 
-.ss640-fxdr-c {
+.mid-fxdr-c {
     flex-direction: column;
 }
 
-.ss640-fxw-wrap {
+.mid-fxw-wrap {
     flex-wrap: wrap;
 }
 
-.ss640-w-80 {
+.mid-w-80 {
     width: 80%;
 }
 
-.ss640-m-auto {
+.mid-m-auto {
     margin: auto;
 }
 
-.ss640-order1 {
+.mid-order1 {
     order: 1;
 }

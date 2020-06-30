@@ -1,15 +1,15 @@
-.ss420-fxd-column {
+.small-fxd-column {
     flex-direction: column;
 }
 
-.ss420-m-02rem {
+.small-m-02rem {
     margin: .2rem;
 }
 
-.ss420-m-auto {
+.small-m-auto {
     margin: auto;
 }
 
-.ss420-ml-10perc {
+.small-ml-10perc {
     margin-left: 10%;
 }
